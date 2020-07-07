@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-define-variables",
+  "version": "1.0.0",
+  "description": "Maps all identifiers in the code found in the given mapping",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watch",
+    "prettier-watch": "onchange '**/*.js' -- prettier --write {{changed}}",
+    "prettier": "prettier --write \"**/*.js\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "jest": "^26.0.1",
+    "onchange": "^7.0.2",
+    "prettier": "2.0.5"
+  }
+}
